@@ -1,0 +1,92 @@
+
+/* .btn{
+    transition: all 0.3s ease 0s;
+    display: block;
+    width: 100%;
+}
+.btn:hover{
+    box-shadow: 0px 15px 20px #d0d0d0;
+    transform: translateY(-7px);
+} */
+.btn{
+  padding-left: 10px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #d81e33;
+}
+
+.btn-danger{
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.btn-danger:hover{
+    background-color: #d61128;
+}
+.btnGoogle{
+  display: inline-flex;
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  box-shadow: 0px 15px 20px #d0d0d0;
+  font-size: 37px;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  opacity: 0.7;
+}
+.btnGoogle:hover{
+  opacity: 1;
+}
+.card-signin{
+    width: 500px;
+    padding : 0px 50px 50px 50px;
+    text-align : center
+}
+
+.btnFacebook { 
+    border-radius: 5px;
+    background: #3b5998;
+    color:white;
+    border: none;  
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: -webkit-box;
+    transition: all 0.3s ease 0s;
+    }
+    .btnFacebook:hover {
+      color: white;
+      background: #2d4882;
+    }
+    
+   
+    /* 
+  .btnGoogle { 
+    border-radius: 4px;
+    background: #db3236;
+    color:white;
+    border:1px solid black;
+    text-align: center;
+    
+   }
+  .btnFacebook:hover {
+    color: white;
+  }
+
+  .btn btnFacebook metro{
+    margin-bottom: 15px;
+    display: inline-flex;
+  } */
+  /* 
+  .btnGoogle:hover {
+    background: #db3236;
+    opacity: 0.6;
+  } */
+  
+  @media only screen and (max-width : 399px) {
+    .btnFacebook,.btnGoogle{
+      width: 100%
+    }
+  }

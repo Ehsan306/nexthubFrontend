@@ -1,0 +1,16 @@
+.filter-btn{
+    background-color: #DF362D;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    color: white;
+    border-radius: 32.5px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.filter-btn:hover{
+    box-shadow: 0px 15px 20px #d0d0d0;
+}

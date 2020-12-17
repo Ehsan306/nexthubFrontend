@@ -1,0 +1,55 @@
+.landingBanner{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+   
+    background: url('../images/landingBanner.png');
+}
+.mainHead{
+    line-height : '71.92px';
+    color : #df362d;
+    font-size: 50px;
+    font-weight : 'bold';
+}
+
+.landing-para{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42.54px;
+    font-family: 'Inika', serif;
+    color: #495056;
+    text-align: left;
+}
+
+
+
+
+
+
+/* Iphone 11 pro */
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+            .landingBanner{
+                background: none;
+            }
+            .mainHead{
+                line-height: 44.08px;
+                font-size: 30px;
+                text-align: center;
+                font-weight: bold;
+                /* margin-left: -90px;
+                margin-right: -1000px; */
+            }
+            .landing-para{
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 42.54px;
+                font-family: 'Inika', serif;
+                color: #495056;
+                text-align: center;
+            }
+    }
